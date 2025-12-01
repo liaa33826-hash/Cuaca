@@ -1,0 +1,91 @@
+/* Gaya Dasar Body dan Teks */
+body {
+    font-family: Arial, sans-serif; /* Menggunakan font yang mudah dibaca */
+    margin: 20px; /* Jarak dari tepi browser */
+    background-color: #f4f4f9; /* Warna latar belakang ringan */
+    color: #333; /* Warna teks utama */
+}
+
+/* Gaya Judul Utama */
+h2 {
+    color: #2c3e50; /* Warna biru gelap */
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+/* Gaya Judul Lokasi */
+h4 {
+    color: #34495e; /* Warna abu-abu gelap */
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+/* Gaya Paragraf Lokasi */
+p {
+    font-size: 0.9em;
+    color: #7f8c8d;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+/* Gaya iFrame Peta */
+iframe {
+    display: block; /* Memastikan iframe mengambil baris penuh jika perlu */
+    margin: 20px auto; /* Memposisikan iframe di tengah */
+    border: 3px solid #bdc3c7 !important; /* Batas sederhana */
+    border-radius: 8px; /* Sudut membulat */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Bayangan lembut */
+}
+
+/* Gaya Tabel 📊 */
+table {
+    width: 90%; /* Lebar tabel */
+    margin: 20px auto; /* Memposisikan tabel di tengah */
+    border-collapse: collapse; /* Menghilangkan spasi ganda antar batas sel */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Bayangan untuk efek terangkat */
+    background-color: #ffffff; /* Latar belakang putih untuk tabel */
+}
+
+/* Gaya Header Tabel */
+th {
+    background-color: #3498db; /* Warna biru cerah */
+    color: white;
+    padding: 12px 15px;
+    text-align: left;
+    border: 1px solid #2980b9;
+}
+
+/* Gaya Baris dan Sel Tabel */
+td {
+    padding: 10px 15px;
+    border: 1px solid #ddd; /* Garis batas tipis dan terang */
+}
+
+/* Gaya Garis Ganjil (Zebra Striping) */
+tr:nth-child(even) {
+    background-color: #ecf0f1; /* Warna latar belakang untuk baris genap */
+}
+
+/* Efek Hover pada Baris */
+tr:hover {
+    background-color: #d5dbdb; /* Warna saat kursor diarahkan */
+    transition: background-color 0.3s ease;
+}
+
+/* Gaya Footer */
+footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px 0;
+    font-size: 0.8em;
+    color: #7f8c8d;
+    border-top: 1px solid #bdc3c7; /* Garis pemisah atas */
+}
+
+/* Memperbaiki HR yang salah letak di HTML Anda */
+hr {
+    border: 0;
+    height: 1px;
+    background: #bdc3c7;
+    margin-bottom: 15px;
+}
